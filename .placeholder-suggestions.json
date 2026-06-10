@@ -1,0 +1,25 @@
+{
+  "WartungsplanDialog.tsx": {
+    "maschine": "Welche Maschine?",
+    "wartungsart": "z. B. Reparatur, Inspektion",
+    "wartungsintervall": "Wartungsrhythmus wählen",
+    "letzte_wartung": "Wann war die letzte Wartung?",
+    "naechste_wartung": "Wann ist die nächste fällig?",
+    "status": "z. B. Ausstehend, In Bearbeitung",
+    "verantwortlich_vorname": "z. B. Max",
+    "verantwortlich_nachname": "z. B. Müller",
+    "durchgefuehrt_vorname": "z. B. Anna",
+    "durchgefuehrt_nachname": "z. B. Schmidt",
+    "bemerkungen": "Besonderheiten, Ersatzteile, Auffälligkeiten..."
+  },
+  "MaschinenDialog.tsx": {
+    "maschinentyp": "z. B. Drehmaschine, Fräsmaschine",
+    "seriennummer": "z. B. DM-2024-0815",
+    "hersteller": "z. B. Siemens, Bosch",
+    "baujahr": "z. B. 2020",
+    "standort_gebaeude": "z. B. Halle 3",
+    "standort_bereich": "z. B. Fertigung Nord",
+    "beschreibung": "Größe, Kapazität, besondere Eigenschaften, Wartungsvergangenheit...",
+    "maschinenname": "z. B. Drehmaschine 1, Fräsanlage ABC"
+  }
+}

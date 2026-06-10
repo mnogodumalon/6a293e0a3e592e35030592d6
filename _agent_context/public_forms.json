@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "wartungsplan",
+      "app_id": "6a293dfb99d8252c0ae62355",
+      "path": "/rest/apps/6a293dfb99d8252c0ae62355/records",
+      "allowed_fields": [
+        "wartungsart",
+        "wartungsintervall",
+        "letzte_wartung",
+        "naechste_wartung",
+        "status",
+        "verantwortlich_vorname",
+        "verantwortlich_nachname",
+        "durchgefuehrt_vorname",
+        "durchgefuehrt_nachname",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Wartungsplan — Formular"
+    },
+    {
+      "entity": "maschinen",
+      "app_id": "6a293df9754668c0c39068b0",
+      "path": "/rest/apps/6a293df9754668c0c39068b0/records",
+      "allowed_fields": [
+        "maschinentyp",
+        "seriennummer",
+        "hersteller",
+        "baujahr",
+        "standort_gebaeude",
+        "standort_bereich",
+        "beschreibung",
+        "maschinenname"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Maschinen — Formular"
+    }
+  ]
+}

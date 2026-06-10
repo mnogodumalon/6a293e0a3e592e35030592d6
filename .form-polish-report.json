@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Wartungsplan": {
+      "placeholders_set": 10,
+      "defaults_keys": ["letzte_wartung", "naechste_wartung", "status"],
+      "computed_keys": ["_wartungsplan_intervall_tage"],
+      "reason": "Zwei Datumsfelder als Paar (letzte_wartung/naechste_wartung) → Intervall-Dauer als virtuelle computed-Größe für Aggregat-Hinweis im Dialog. Status defaulted auf 'Ausstehend' (Anfangs-Workflow). Keine Geldbeträge oder Mengen-Multiplikationen."
+    },
+    "Maschinen": {
+      "placeholders_set": 8,
+      "defaults_keys": ["baujahr"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Katalog von Maschinen). Keine applookup-Ketten zu Preis-Feldern, keine Datums-Paare mit Dauer-Semantik, keine Mengen/Summen-Logik. Baujahr defaulted auf aktuelles Jahr als hilfreiche Vorbelegung."
+    }
+  }
+}
